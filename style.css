@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+  background:white;
+  margin: 3rem;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+
+  font-size: 1.5rem;
+}
+
+header{
+  margin: -3rem;
+  margin-top: -8rem;
+  margin-bottom: 1rem;
+  padding: 15rem;
+  padding-left: 3rem;
+  letter-spacing: 7px;
+  font-family: 'Urbanist', sans-serif;
+  color: white;
+  background-image: url("https://live.staticflickr.com/1112/691478431_7c2a31a96a_b.jpg");
+  background-size: cover;
+  background-position: 0% 40%;
+  background-color: rgb(255, 160, 76, 0.7);
+  background-blend-mode: soft-light;
+}
+
+footer {
+  margin: -3rem;
+  margin-top: 3rem;
+  padding: 3rem;
+  color: white;
+  background-color: black;
+}
+
+.button {
+  padding: 2rem;
+  font-size: 1.25rem;
+  font-family: 'Urbanist', sans-serif;
+  background-color: rgb(255, 160, 76);
+  color:white;
+  text-decoration: none;
+  border: 3px solid black;
+}
+
+.button:hover{
+  background-color: black;
+  border: 3px solid rgb(255, 160, 76);
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: -2rem;
+
+  font-family: 'Urbanist', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 5px;
+  color: white;
+}
+
+/* Styling for navbar elements */
+.navbar-element {
+  margin: auto;
+  padding: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid black;
+}
+
+/* Styling for links in navbar elements */
+.navbar-link {
+  text-decoration: none;
+  color: white;
+}
+
+.nameplate {
+  border: 5px solid rgb(255, 160, 76);
+}
+
+/* styling for the navbar element of the current page */
+.current {
+  border: 5px solid black;
+  font-weight: bolder;
+}
+
+.attribution {
+  font-size: 0.8rem;
+  text-align: right;
+  padding-right: 1rem;
+  color: #8E8874;
+  font-style: italic;
+} 
+
+.flex-container {
+  display: flex;
+
+  margin: -2rem;
+}
+
+.content {
+  margin: auto;
+  padding: 1.5rem;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+input[type=text], textarea {
+  padding: 1rem;
+  margin: 1rem 0;
+}
