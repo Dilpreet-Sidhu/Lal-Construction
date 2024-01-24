@@ -75,6 +75,19 @@ nav {
   color: white;
 }
 
+img {
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right bottom, 
+    rgba(255, 160, 76, 1),
+    rgba(0,0,0,0),
+    rgba(255, 160, 76, 1)) 1;
+}
+
+.navbar-link:hover {
+  font-weight: bolder;
+}
+
 .nameplate {
   border: 5px solid rgb(255, 160, 76);
 }
@@ -111,5 +124,34 @@ nav {
 
 input[type=text], textarea {
   padding: 1rem;
-  margin: 1rem 0;
+  margin: 1rem;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to right bottom, 
+    rgba(255, 160, 76, 1),
+    rgba(0,0,0,0),
+    rgba(255, 160, 76, 1)) 1;
+}
+
+input[type=submit] {
+  padding: 1rem;
+  margin: 1rem ;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to right bottom, 
+    rgba(255, 160, 76, 1),
+    rgba(0,0,0,0),
+    rgba(255, 160, 76, 1)) 1;
+  transition-duration: 0.5s;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  font-weight: bold;
+  
+  border-image: linear-gradient(to left bottom, 
+    rgba(255, 160, 76, 1),
+    rgba(0,0,0,0),
+    rgba(255, 160, 76, 1)) 1;
+  transition-duration: 0.5s;
 }
