@@ -67,6 +67,7 @@ nav {
   padding: 1.5rem;
   background-color: rgba(0, 0, 0, 0.6);
   border: 2px solid black;
+  transition-duration: 1s;
 }
 
 /* Styling for links in navbar elements */
@@ -75,17 +76,25 @@ nav {
   color: white;
 }
 
+.navbar-element:hover {
+  border-image: linear-gradient(to right bottom, 
+    rgb(0,0,0,1),
+    rgba(0,0,0,0),
+    rgba(0,0,0,1)) 1;
+  transition-duration: 1s;
+}
+
+.navbar-link:hover {
+  font-weight: bolder;
+}
+
 img {
-  border-width: 4px;
+  border-width: 3px;
   border-style: solid;
   border-image: linear-gradient(to right bottom, 
     rgba(255, 160, 76, 1),
     rgba(0,0,0,0),
     rgba(255, 160, 76, 1)) 1;
-}
-
-.navbar-link:hover {
-  font-weight: bolder;
 }
 
 .nameplate {
